@@ -4,6 +4,7 @@
     <Demo />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <DemoVue content="Xin chào Vue" />
+    <CauDieuKien/>
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import DemoVue from "./components/DemoVue.vue";
 import Demo from "./components/ColorChange.vue";
+import CauDieuKien from "./components/V_IF.vue";
 export default {
   name: "App",
   components: {
     HelloWorld,
     DemoVue,
     Demo,
+    CauDieuKien,
   },
 };
 </script>
